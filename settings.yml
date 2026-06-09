@@ -1,0 +1,22 @@
+use_default_settings: true
+
+server:
+  secret_key: "bfyimvddtjkoivcdrjm"
+  limiter: false
+  image_proxy: true
+  default_http_headers:
+    X-Content-Type-Options: nosniff
+    X-Download-Options: noopen
+    X-Robots-Tag: noindex, nofollow
+    Referrer-Policy: no-referrer
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Allow-Methods: GET, POST, OPTIONS
+    Access-Control-Allow-Headers: Content-Type, X-Requested-With
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  default_lang: "auto"
+  formats:
+    - html
+    - json
