@@ -18,7 +18,7 @@ import os
 PORT = int(os.environ.get("PORT", 8081))
 
 # Max characters of text to return per page
-MAX_TEXT_LENGTH = 1500
+MAX_TEXT_LENGTH = 500
 
 def extract_text(html):
     """Strip HTML down to clean readable text."""
